@@ -1,0 +1,52 @@
+.interests .icon-box {
+  margin-bottom: 20px;
+}
+
+.interests .icon {
+  float: left;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 54px;
+  height: 54px;
+  background: #149ddd;
+  border-radius: 50%;
+  transition: 0.5s;
+  border: 1px solid #149ddd;
+}
+
+.interests .icon i {
+  color: #fff;
+  font-size: 24px;
+  line-height: 0;
+}
+
+.interests .icon-box:hover .icon {
+  background: #fff;
+}
+
+.interests .icon-box:hover .icon i {
+  color: #149ddd;
+}
+
+.interests .title {
+  margin-left: 80px;
+  font-weight: 700;
+  margin-bottom: 15px;
+  font-size: 18px;
+}
+
+.interests .title p {
+  color: #343a40;
+  margin-top: 15px;
+}
+
+/* .interests .title p:hover {
+  color: #149ddd;
+} */
+
+.interests .description {
+  margin-left: 80px;
+  line-height: 24px;
+  font-size: 14px;
+}
